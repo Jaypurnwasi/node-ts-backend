@@ -7,7 +7,7 @@ const connect = async ()=>{
     
 
     try{
-        const connection = await mongoose.connect('mongodb+srv://jaypurnwasi:43mBo60BmigaZYAi@cluster0.m99iw.mongodb.net/UserDb')
+        const connection = await mongoose.connect('')
         console.log("db connected succesfully ")
 
     }catch(err){

@@ -56,7 +56,7 @@ export const getUserById = async (req, res) => {
             return;
         }
         else {
-            res.status(200).json({ success: true, message: "user does not exists" });
+            res.status(404).json({ success: true, message: "user does not exists" });
         }
     }
     catch (err) {
